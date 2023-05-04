@@ -1,21 +1,11 @@
-# Programa que armazena numa lista os dados nome e peso, além de destacar qual foi o maior e o menor peso e os seus respetivos donos
-
-# Variaveis:
 maior_peso = 0
 menor_peso = 0
 lista_tudo = list()
 dados = list()
 
-# Contadores são desnecessários como variaves agora que aprendemos o método 'len'
-"""contador = 0"""
-
-# 'Loop'. Quantia total de pessoas cadastradas depende do usuário
 while True:
     nome = str(input('Nome: '))
     peso = float(input('Peso: '))
-
-    # Observação: é possível descartar as variaveis 'nome' e 'peso', colocando os seus métodos direto no append da lista
-    """dados.append(str(input('Nome: '))"""
 
     # Determinar gerenciamento de listas
     dados.append(nome)
